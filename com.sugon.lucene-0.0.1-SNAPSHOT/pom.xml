@@ -7,6 +7,7 @@
 	<packaging>war</packaging>
 	<properties>
 		<lucene.version>4.0.0</lucene.version>
+		<junit.version>4.12</junit.version>
 	</properties>
 	<dependencies>
 
@@ -43,6 +44,13 @@
 			<groupId>org.apache.lucene</groupId>
 			<artifactId>lucene-analyzers-common</artifactId>
 			<version>${lucene.version}</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/junit/junit -->
+		<dependency>
+		    <groupId>junit</groupId>
+		    <artifactId>junit</artifactId>
+		    <version>${junit.version}</version>
 		</dependency>
 
 

@@ -1,4 +1,4 @@
-package com.sugon;
+package com.daniel;
 
 import java.io.BufferedReader;
 import java.io.File;
